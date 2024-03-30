@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D5A2392BA3CB410031B1EA /* HydroHunters_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2382BA3CB410031B1EA /* HydroHunters_uiApp.swift */; };
+		18D5A23B2BA3CB410031B1EA /* HydroHuntersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A23A2BA3CB410031B1EA /* HydroHuntersTabView.swift */; };
+		18D5A23D2BA3CB430031B1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A23C2BA3CB430031B1EA /* Assets.xcassets */; };
+		18D5A2402BA3CB430031B1EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A23F2BA3CB430031B1EA /* Preview Assets.xcassets */; };
+		18D5A24A2BA3CB430031B1EA /* HydroHunters_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2492BA3CB430031B1EA /* HydroHunters_uiTests.swift */; };
+		18D5A2542BA3CB430031B1EA /* HydroHunters_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2532BA3CB430031B1EA /* HydroHunters_uiUITests.swift */; };
+		18D5A2562BA3CB430031B1EA /* HydroHunters_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2552BA3CB430031B1EA /* HydroHunters_uiUITestsLaunchTests.swift */; };
+		18D5A2632BA3CF9B0031B1EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2622BA3CF9B0031B1EA /* MapView.swift */; };
+		18D5A2652BA3CFAD0031B1EA /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2642BA3CFAD0031B1EA /* LeaderBoardView.swift */; };
+		18D5A2672BA3CFC00031B1EA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2662BA3CFC00031B1EA /* AccountView.swift */; };
+		18D5A2692BA4F80A0031B1EA /* TintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5A2682BA4F80A0031B1EA /* TintButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D5A2462BA3CB430031B1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D5A22D2BA3CB410031B1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D5A2342BA3CB410031B1EA;
+			remoteInfo = "HydroHunters ui";
+		};
+		18D5A2502BA3CB430031B1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D5A22D2BA3CB410031B1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D5A2342BA3CB410031B1EA;
+			remoteInfo = "HydroHunters ui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D5A2352BA3CB410031B1EA /* HydroHunters ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HydroHunters ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D5A2382BA3CB410031B1EA /* HydroHunters_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunters_uiApp.swift; sourceTree = "<group>"; };
+		18D5A23A2BA3CB410031B1EA /* HydroHuntersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHuntersTabView.swift; sourceTree = "<group>"; };
+		18D5A23C2BA3CB430031B1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D5A23F2BA3CB430031B1EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18D5A2452BA3CB430031B1EA /* HydroHunters uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HydroHunters uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D5A2492BA3CB430031B1EA /* HydroHunters_uiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunters_uiTests.swift; sourceTree = "<group>"; };
+		18D5A24F2BA3CB430031B1EA /* HydroHunters uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HydroHunters uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D5A2532BA3CB430031B1EA /* HydroHunters_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunters_uiUITests.swift; sourceTree = "<group>"; };
+		18D5A2552BA3CB430031B1EA /* HydroHunters_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroHunters_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D5A2622BA3CF9B0031B1EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		18D5A2642BA3CFAD0031B1EA /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		18D5A2662BA3CFC00031B1EA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		18D5A2682BA4F80A0031B1EA /* TintButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D5A2322BA3CB410031B1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A2422BA3CB430031B1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A24C2BA3CB430031B1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D5A22C2BA3CB410031B1EA = {
+			isa = PBXGroup;
+			children = (
+				18D5A2372BA3CB410031B1EA /* HydroHunters ui */,
+				18D5A2482BA3CB430031B1EA /* HydroHunters uiTests */,
+				18D5A2522BA3CB430031B1EA /* HydroHunters uiUITests */,
+				18D5A2362BA3CB410031B1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D5A2362BA3CB410031B1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2352BA3CB410031B1EA /* HydroHunters ui.app */,
+				18D5A2452BA3CB430031B1EA /* HydroHunters uiTests.xctest */,
+				18D5A24F2BA3CB430031B1EA /* HydroHunters uiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D5A2372BA3CB410031B1EA /* HydroHunters ui */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2382BA3CB410031B1EA /* HydroHunters_uiApp.swift */,
+				18D5A2622BA3CF9B0031B1EA /* MapView.swift */,
+				18D5A2662BA3CFC00031B1EA /* AccountView.swift */,
+				18D5A23A2BA3CB410031B1EA /* HydroHuntersTabView.swift */,
+				18D5A2682BA4F80A0031B1EA /* TintButton.swift */,
+				18D5A2642BA3CFAD0031B1EA /* LeaderBoardView.swift */,
+				18D5A23C2BA3CB430031B1EA /* Assets.xcassets */,
+				18D5A23E2BA3CB430031B1EA /* Preview Content */,
+			);
+			path = "HydroHunters ui";
+			sourceTree = "<group>";
+		};
+		18D5A23E2BA3CB430031B1EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A23F2BA3CB430031B1EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18D5A2482BA3CB430031B1EA /* HydroHunters uiTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2492BA3CB430031B1EA /* HydroHunters_uiTests.swift */,
+			);
+			path = "HydroHunters uiTests";
+			sourceTree = "<group>";
+		};
+		18D5A2522BA3CB430031B1EA /* HydroHunters uiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D5A2532BA3CB430031B1EA /* HydroHunters_uiUITests.swift */,
+				18D5A2552BA3CB430031B1EA /* HydroHunters_uiUITestsLaunchTests.swift */,
+			);
+			path = "HydroHunters uiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D5A2342BA3CB410031B1EA /* HydroHunters ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5A2592BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters ui" */;
+			buildPhases = (
+				18D5A2312BA3CB410031B1EA /* Sources */,
+				18D5A2322BA3CB410031B1EA /* Frameworks */,
+				18D5A2332BA3CB410031B1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HydroHunters ui";
+			productName = "HydroHunters ui";
+			productReference = 18D5A2352BA3CB410031B1EA /* HydroHunters ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D5A2442BA3CB430031B1EA /* HydroHunters uiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5A25C2BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters uiTests" */;
+			buildPhases = (
+				18D5A2412BA3CB430031B1EA /* Sources */,
+				18D5A2422BA3CB430031B1EA /* Frameworks */,
+				18D5A2432BA3CB430031B1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D5A2472BA3CB430031B1EA /* PBXTargetDependency */,
+			);
+			name = "HydroHunters uiTests";
+			productName = "HydroHunters uiTests";
+			productReference = 18D5A2452BA3CB430031B1EA /* HydroHunters uiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D5A24E2BA3CB430031B1EA /* HydroHunters uiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5A25F2BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters uiUITests" */;
+			buildPhases = (
+				18D5A24B2BA3CB430031B1EA /* Sources */,
+				18D5A24C2BA3CB430031B1EA /* Frameworks */,
+				18D5A24D2BA3CB430031B1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D5A2512BA3CB430031B1EA /* PBXTargetDependency */,
+			);
+			name = "HydroHunters uiUITests";
+			productName = "HydroHunters uiUITests";
+			productReference = 18D5A24F2BA3CB430031B1EA /* HydroHunters uiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D5A22D2BA3CB410031B1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18D5A2342BA3CB410031B1EA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					18D5A2442BA3CB430031B1EA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18D5A2342BA3CB410031B1EA;
+					};
+					18D5A24E2BA3CB430031B1EA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18D5A2342BA3CB410031B1EA;
+					};
+				};
+			};
+			buildConfigurationList = 18D5A2302BA3CB410031B1EA /* Build configuration list for PBXProject "HydroHunters ui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D5A22C2BA3CB410031B1EA;
+			productRefGroup = 18D5A2362BA3CB410031B1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D5A2342BA3CB410031B1EA /* HydroHunters ui */,
+				18D5A2442BA3CB430031B1EA /* HydroHunters uiTests */,
+				18D5A24E2BA3CB430031B1EA /* HydroHunters uiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D5A2332BA3CB410031B1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5A2402BA3CB430031B1EA /* Preview Assets.xcassets in Resources */,
+				18D5A23D2BA3CB430031B1EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A2432BA3CB430031B1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A24D2BA3CB430031B1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D5A2312BA3CB410031B1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5A2652BA3CFAD0031B1EA /* LeaderBoardView.swift in Sources */,
+				18D5A23B2BA3CB410031B1EA /* HydroHuntersTabView.swift in Sources */,
+				18D5A2632BA3CF9B0031B1EA /* MapView.swift in Sources */,
+				18D5A2692BA4F80A0031B1EA /* TintButton.swift in Sources */,
+				18D5A2392BA3CB410031B1EA /* HydroHunters_uiApp.swift in Sources */,
+				18D5A2672BA3CFC00031B1EA /* AccountView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A2412BA3CB430031B1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5A24A2BA3CB430031B1EA /* HydroHunters_uiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5A24B2BA3CB430031B1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5A2542BA3CB430031B1EA /* HydroHunters_uiUITests.swift in Sources */,
+				18D5A2562BA3CB430031B1EA /* HydroHunters_uiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D5A2472BA3CB430031B1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D5A2342BA3CB410031B1EA /* HydroHunters ui */;
+			targetProxy = 18D5A2462BA3CB430031B1EA /* PBXContainerItemProxy */;
+		};
+		18D5A2512BA3CB430031B1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D5A2342BA3CB410031B1EA /* HydroHunters ui */;
+			targetProxy = 18D5A2502BA3CB430031B1EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18D5A2572BA3CB430031B1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D5A2582BA3CB430031B1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D5A25A2BA3CB430031B1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroHunters ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D5A25B2BA3CB430031B1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroHunters ui/Preview Content\"";
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D5A25D2BA3CB430031B1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroHunters ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroHunters ui";
+			};
+			name = Debug;
+		};
+		18D5A25E2BA3CB430031B1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroHunters ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroHunters ui";
+			};
+			name = Release;
+		};
+		18D5A2602BA3CB430031B1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HydroHunters ui";
+			};
+			name = Debug;
+		};
+		18D5A2612BA3CB430031B1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84MW3W3SX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.777.HydroHunter.HydroHunters-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HydroHunters ui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D5A2302BA3CB410031B1EA /* Build configuration list for PBXProject "HydroHunters ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5A2572BA3CB430031B1EA /* Debug */,
+				18D5A2582BA3CB430031B1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D5A2592BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5A25A2BA3CB430031B1EA /* Debug */,
+				18D5A25B2BA3CB430031B1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D5A25C2BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters uiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5A25D2BA3CB430031B1EA /* Debug */,
+				18D5A25E2BA3CB430031B1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D5A25F2BA3CB430031B1EA /* Build configuration list for PBXNativeTarget "HydroHunters uiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5A2602BA3CB430031B1EA /* Debug */,
+				18D5A2612BA3CB430031B1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D5A22D2BA3CB410031B1EA /* Project object */;
+}
