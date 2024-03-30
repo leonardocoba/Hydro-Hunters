@@ -16,7 +16,7 @@ struct HydroHuntersTabView: View {
                         Image(systemName: "map")
                         Text("Map")
                     }
-                LeaderBoardView()
+                LeaderboardView()
                     .tabItem {
                         Image(systemName: "trophy")
                         Text("Leaderboard")
@@ -29,7 +29,6 @@ struct HydroHuntersTabView: View {
             }
             .accentColor(Color("brandPrimary"))
             .frame(width: .infinity)
-            .background(Color("brandSecondary"))
            
         }
       
